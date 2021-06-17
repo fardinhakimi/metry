@@ -49,9 +49,9 @@ You need npm and node installed on your computer to run this program.
 4. Enter your METRI_API_URL and METRI_API_KEY in `.env`
    ```JS
    METRI_API_URL= '<METRI_API_URL>'
-   METRI_API_KEY= '<METRI_API_KEY>';
+   METRI_API_KEY= '<METRI_API_KEY>'
    ```
-4. build the project
+4. build the project (optional)
    ```sh
     npm run build
    ```
