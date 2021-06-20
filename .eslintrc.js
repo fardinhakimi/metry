@@ -31,6 +31,8 @@ module.exports = {
 			{ allow: ['functions', 'arrowFunctions'] },
 		],
 		'no-control-regex': 0,
+		'@typescript-eslint/no-namespace': 'off',
+		'@typescript-eslint/no-var-requires': 'off',
 		'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 		'@typescript-eslint/ban-ts-comment': 'off',
 		'@typescript-eslint/explicit-module-boundary-types': 'off',
