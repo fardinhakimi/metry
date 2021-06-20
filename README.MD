@@ -1,8 +1,8 @@
 
 <!-- ABOUT THE PROJECT -->
-## MetriApiClient
+## MetryApiClient
 
-This is a minimalist ApiClient to [MetriApi](https://metry.docs.apiary.io/#)
+This is a minimalist ApiClient to [MetryApi](https://metry.docs.apiary.io/#)
 
 #### Supported operations:
 
@@ -32,7 +32,7 @@ You need npm and node installed on your computer to run this program.
 
 ### Installation
 
-1. You need a valid Metri Api token to use this ApiClient. check out [Metri Api docs ](https://metry.docs.apiary.io/#) on how you can get one.
+1. You need a valid Metry Api token to use this ApiClient. check out [Metry Api docs ](https://metry.docs.apiary.io/#) on how you can get one.
 
 2. Clone the repo
    ```sh
@@ -46,10 +46,10 @@ You need npm and node installed on your computer to run this program.
     ```sh
     touch .env
     ```
-4. Enter your METRI_API_URL and METRI_API_KEY in `.env`
+4. Enter your METRY_API_URL and METRY_API_TOKEN in `.env`
    ```JS
-   METRI_API_URL= '<METRI_API_URL>'
-   METRI_API_KEY= '<METRI_API_KEY>'
+   METRY_API_URL= '<METRY_API_URL>'
+   METRY_API_TOKEN= '<METRY_API_TOKEN>'
    ```
 4. build the project (optional)
    ```sh
