@@ -6,7 +6,7 @@ This is a minimalist ApiClient to [MetryApi](https://metry.docs.apiary.io/#)
 
 #### Supported operations:
 
-* listMeters: retrieves a list of meters with their consumption information.
+* getMeters: retrieves a list of meters with their consumption information.
 * getConsumption: retrieves consumption data for a single meter
 
 
@@ -46,22 +46,21 @@ You need npm and node installed on your computer to run this program.
     ```sh
     touch .env
     ```
-4. Enter your METRY_API_URL and METRY_API_TOKEN in `.env`
+5. Enter your METRY_API_URL and METRY_API_TOKEN in `.env`
    ```JS
    METRY_API_URL= '<METRY_API_URL>'
    METRY_API_TOKEN= '<METRY_API_TOKEN>'
    ```
-4. build the project (optional)
+6. build the project (optional)
    ```sh
     npm run build
    ```
-
+7. build the project (optional)
+   ```sh
+   npm run build
+   ```
 ## Usage
-
-Run in the root folder
-```sh
-    npm run test:run
-```
+Look in src/index.ts for an example of how to use the client.
 
 ## Contact
 
