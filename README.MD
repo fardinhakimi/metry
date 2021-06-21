@@ -55,9 +55,9 @@ You need npm and node installed on your computer to run this program.
    ```sh
     npm run build
    ```
-7. build the project (optional)
+7. run the example
    ```sh
-   npm run build
+   npm run test:run
    ```
 ## Usage
 Look in src/index.ts for an example of how to use the client.
